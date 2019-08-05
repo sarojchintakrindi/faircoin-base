@@ -1,4 +1,4 @@
-include Makefile.ledger
+
 all: lint install
 
 install: go.sum
