@@ -4,7 +4,7 @@
 
 ## Requirements
 - `golang`	>1.12.1 installed
-- Appropriate `$GOPATH$`
+- Appropriate `$GOPATH`
 Follow the [instructions here](https://golang.org/doc/install). Make sure that this repository is in your `$GOPATH`! 
 
 In addition, add the following parameters to your environment (just run these commands). 
@@ -67,9 +67,11 @@ nscli query account $(nscli keys show Alice -a)
 //Send coins
 nscli tx send [Sender's address] [Recipient's address] [amount|token]
 
-//ex. nscli tx send cosmos16pknf5p5ytzzy5hafj6hemvygrapfjz8wd6tu0 cosmos1uhk26zw3ldxxrg6wrxw65cevrqe36fws8e8fks 500faircoin
+//example
+// nscli tx send cosmos16pknf5p5ytzzy5hafj6hemvygrapfjz8wd6tu0 cosmos1uhk26zw3ldxxrg6wrxw65cevrqe36fws8e8fks 500faircoin
 
-//Query again to verify 
+//Get a list of more querying commands (blocks, txs, validators, etc. )
+n
 
 ```
 ## Initialize as a second node

@@ -20,7 +20,7 @@ import (
 
 const (
 	storeAcc = "acc"
-	storeNS  = "nameservice"
+	storeNS  = "faircoin"
 )
 
 func main() {
@@ -37,7 +37,7 @@ func main() {
 
 	rootCmd := &cobra.Command{
 		Use:   "nscli",
-		Short: "nameservice Client",
+		Short: "Fairchain Client",
 	}
 
 	// Add --chain-id to persistent flags and mark it required
