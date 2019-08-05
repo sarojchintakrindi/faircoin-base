@@ -27,7 +27,7 @@ import (
 	"github.com/cosmos/sdk-application-tutorial/x/nameservice"
 )
 
-const appName = "nameservice"
+const appName = "fairchain"
 
 var (
 	// default home directories for the application CLI
